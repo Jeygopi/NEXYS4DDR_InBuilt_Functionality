@@ -1,0 +1,11 @@
+set_property PACKAGE_PIN H17 [get_ports Z]
+set_property PACKAGE_PIN K15 [get_ports carryOut]
+set_property IOSTANDARD LVCMOS33 [get_ports Z]
+set_property IOSTANDARD LVCMOS33 [get_ports carryOut]
+set_property PACKAGE_PIN J15 [get_ports X]
+set_property IOSTANDARD LVCMOS33 [get_ports X]
+set_property PACKAGE_PIN L16 [get_ports Y]
+set_property IOSTANDARD LVCMOS33 [get_ports Y]
+set_property PACKAGE_PIN M13 [get_ports carryIn]
+set_property IOSTANDARD LVCMOS33 [get_ports carryIn]
+

@@ -1,0 +1,5 @@
+set_property -dict {PACKAGE_PIN H17 IOSTANDARD LVCMOS33} [get_ports dividedClk]
+set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33}  [get_ports clk]
+set_property -dict {PACKAGE_PIN N17 IOSTANDARD LVCMOS33} [get_ports reset]
+set_property -dict {PACKAGE_PIN J15 IOSTANDARD LVCMOS33} [get_ports enable] 
+create_clock -period 10.00 [get_ports clk]
