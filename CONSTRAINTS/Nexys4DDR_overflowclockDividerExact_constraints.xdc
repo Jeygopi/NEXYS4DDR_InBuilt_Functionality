@@ -1,5 +1,3 @@
-set_property -dict {PACKAGE_PIN H17 IOSTANDARD LVCMOS33} [get_ports dividedClk]
-set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33}  [get_ports clk]
-set_property -dict {PACKAGE_PIN N17 IOSTANDARD LVCMOS33} [get_ports reset]
-set_property -dict {PACKAGE_PIN J15 IOSTANDARD LVCMOS33} [get_ports enable] 
-create_clock -period 10.00 [get_ports clk]
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1591b32712fdf0024bf43a4a53db84ce514ff85fbdec8cf6746c4da4ff13c64
+size 351

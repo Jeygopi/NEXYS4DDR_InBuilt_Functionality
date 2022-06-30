@@ -1,6 +1,3 @@
-set_property -dict {PACKAGE_PIN N17 IOSTANDARD LVCMOS33} [get_ports pushButton]
-
-set_property -dict {PACKAGE_PIN C17 IOSTANDARD LVCMOS33} [get_ports debouncedPushButton]
-
-set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33} [get_ports masterClk]
-create_clock -period 10.00 [get_ports masterClk]
+version https://git-lfs.github.com/spec/v1
+oid sha256:64a4d7f510dba3464744065b22b1f597e6a067c9e6872607a2dbce0a70f6e573
+size 302

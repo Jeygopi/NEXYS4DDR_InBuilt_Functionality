@@ -1,29 +1,3 @@
-`timescale 1ns / 1ps
-
-module clockDivider #(
-        parameter integer THRESHOLD = 50_000
-    )(
-        input clk,
-        input reset,
-        input enable,
-        output reg dividedClk = 1
-    );
-    
-    reg [31:0] counter;
-    
-    always @(posedge clk) begin
-        if (reset == 1 | counter >= THRESHOLD - 1) begin
-            counter = 0;
-        end else if (enable == 1) begin
-            counter = counter + 1;
-        end
-    end
-    
-    always @(posedge clk) begin
-        if (reset == 1) begin
-            dividedClk = 0;
-        end else if (counter >= THRESHOLD - 1) begin
-            dividedClk = ~dividedClk;
-        end
-    end
-endmodule
+version https://git-lfs.github.com/spec/v1
+oid sha256:c16ef63eb0f77534cf00c496e2cad7d2ffde27233748224e0da06d8740a092fb
+size 688

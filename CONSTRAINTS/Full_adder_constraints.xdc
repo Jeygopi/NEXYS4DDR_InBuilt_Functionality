@@ -1,11 +1,3 @@
-set_property PACKAGE_PIN H17 [get_ports Z]
-set_property PACKAGE_PIN K15 [get_ports carryOut]
-set_property IOSTANDARD LVCMOS33 [get_ports Z]
-set_property IOSTANDARD LVCMOS33 [get_ports carryOut]
-set_property PACKAGE_PIN J15 [get_ports X]
-set_property IOSTANDARD LVCMOS33 [get_ports X]
-set_property PACKAGE_PIN L16 [get_ports Y]
-set_property IOSTANDARD LVCMOS33 [get_ports Y]
-set_property PACKAGE_PIN M13 [get_ports carryIn]
-set_property IOSTANDARD LVCMOS33 [get_ports carryIn]
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:68c848f4204895a4f604624f195f56561dee5a2f58adca50dbe7ef8486a522f6
+size 488
